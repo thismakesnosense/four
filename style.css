@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: blue;
+    min-height: 100vh;
+   
+
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    
+    
+}
+
+.txtb{
+    width: 100%;
+    border: burlywood;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+h3{
+    margin: 12px 0;
+    
+}
+
+.task{
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    margin: 8px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task{
+    background-color: rgb(100, 255, 80);
+
+}
+
+header{
+    font-size: 70px;
+   
+   
+}
